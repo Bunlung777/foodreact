@@ -1,0 +1,15 @@
+.App {
+  text-align: center;
+}
+.prompt{
+  font-family: 'Prompt', sans-serif;
+}
+.thumbnail {
+  cursor: pointer;
+  transition-duration: 0.3s;
+  overflow: hidden;
+}
+.thumbnail:hover {
+  transform: scale(1.5);
+  box-shadow: rgb(0, 0, 0) 10px 15px 30px -10px;
+}    
